@@ -1,0 +1,7 @@
+태그명,주소,구분,자료형,모듈,장치,설명
+Motor1_Start,I0.0,,,DI_Module1,ConveyorA,모터1 시작버튼
+Motor1_Stop,I0.1,,,DI_Module1,ConveyorA,모터1 정지버튼
+Motor1_Run,Q0.0,,,DO_Module1,ConveyorA,모터1 구동출력
+EStop,I0.7,,,DI_Module1,ConveyorA,비상정지
+TempSensor1,IW10,AI,REAL,AI_Module1,Tank1,온도센서
+FlowValve1,QW20,,,AO_Module1,Tank1,유량밸브
